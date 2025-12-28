@@ -11,7 +11,7 @@ DATABASE_URL = f"postgresql://{settings.db_username}:{settings.db_password}@{set
 engine = create_engine(DATABASE_URL)
 
 
-# Create database tables based on the defined SQLAlchemy models (subclasses of the Base class)
+# Create database tables based on  defined SQLAlchemy models (subclasses of  Base class)
 Base = declarative_base()
 Base.metadata.create_all(engine)
 

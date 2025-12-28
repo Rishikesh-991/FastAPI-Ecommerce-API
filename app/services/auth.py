@@ -11,7 +11,7 @@ from app.schemas.auth import Signup
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-
+# addd
 class AuthService:
     @staticmethod
     async def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):

@@ -3,35 +3,6 @@
 
 A simple Ecommerce API built with Fast API Framework
 
-## Table of Contents
-
-- [Ecommerce API with Fast API Framework](#ecommerce-api-with-fast-api-framework)
-  - [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [API Endpoints](#api-endpoints)
-  - [Screenshots](#screenshots)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-
-
-## Demo
-
-> [!IMPORTANT]
-> The Render.com free plan may experience a short delay (approximately 1 minute) when starting up. Please be patient for the initial access.
-
-- **Render.com**
-	- [Swagger](https://ecommerce-jgao.onrender.com/docs)
-	- [ReDoc](https://ecommerce-jgao.onrender.com/redoc)
-
-- **Online Code**
-	- [Github1s](https://github1s.com/aliseyedi01/Ecommerce-Api)
-
-- **Database**
-	- [dbdiagram](https://dbdiagram.io/d/6574832756d8064ca0b3b776)
 
 
 ## Features
@@ -102,20 +73,6 @@ A simple Ecommerce API built with Fast API Framework
 
 
 
-## Screenshots 
-
-![image](https://github.com/aliseyedi01/Ecommerce-Api/assets/118107025/d7262b0d-161c-4324-b343-27eeb0ec302a)
-
-
-![image](https://github.com/aliseyedi01/Ecommerce-Api/assets/118107025/0d8bc0bf-0eac-4e96-812d-f3e09783efb0)
-
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/aliseyedi01/Ecommerce-Api.git
-   ```
 
 2. **Navigate to the project directory:**
 
@@ -181,10 +138,6 @@ A simple Ecommerce API built with Fast API Framework
 ## Contributing
 
 Feel free to contribute to the project. Fork the repository, make changes, and submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 

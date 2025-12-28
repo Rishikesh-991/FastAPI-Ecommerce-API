@@ -24,7 +24,7 @@ class CartService:
             ResponseHandler.not_found_error("Cart", cart_id)
         return ResponseHandler.get_single_success("cart", cart_id, cart)
 
-    # Create a new Cart
+    # Create a the new Cart
     @staticmethod
     def create_cart(token, db: Session, cart: CartCreate):
         user_id = get_current_user(token)
@@ -52,7 +52,7 @@ class CartService:
         db.refresh(cart_db)
         return ResponseHandler.create_success("Cart", cart_db.id, cart_db)
 
-    # Update Cart & CartItem
+    # Update Cartthe  & CartItem
     @staticmethod
     def update_cart(token, db: Session, cart_id: int, updated_cart: CartUpdate):
         user_id = get_current_user(token)
@@ -88,7 +88,7 @@ class CartService:
         db.refresh(cart)
         return ResponseHandler.update_success("cart", cart.id, cart)
 
-    # Delete Both Cart and CartItems
+    # Delete Both the Cart and CartItems
     @staticmethod
     def delete_cart(token, db: Session, cart_id: int):
         user_id = get_current_user(token)

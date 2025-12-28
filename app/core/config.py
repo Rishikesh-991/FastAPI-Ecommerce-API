@@ -2,14 +2,14 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    # Database Config
+    # Database  the Config
     db_username: str
     db_password: str
     db_hostname: str
     db_port: str
     db_name: str
 
-    # JWT Config
+    # JWT the Config
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int

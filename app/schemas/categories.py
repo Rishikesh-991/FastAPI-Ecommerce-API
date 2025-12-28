@@ -14,7 +14,7 @@ class CategoryCreate(BaseModel):
 class CategoryUpdate(BaseModel):
     name: str
 
-
+# update
 class CategoryOut(BaseModel):
     message: str
     data: CategoryBase

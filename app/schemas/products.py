@@ -20,7 +20,7 @@ class ProductBase(BaseModel):
         if v < 0 or v > 100:
             raise ValueError("discount_percentage must be between 0 and 100")
         return v
-
+# update
     discount_percentage: float
     rating: float
     stock: int

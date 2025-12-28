@@ -20,7 +20,7 @@ def get_all_products(
     return ProductService.get_all_products(db, page, limit, search)
 
 
-# Get Product By ID
+# Get Product .. By ID
 @router.get("/{product_id}", status_code=status.HTTP_200_OK, response_model=ProductOut)
 def get_product(product_id: int, db: Session = Depends(get_db)):
     return ProductService.get_product(db, product_id)

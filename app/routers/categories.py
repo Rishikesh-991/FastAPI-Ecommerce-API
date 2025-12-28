@@ -9,7 +9,7 @@ from app.core.security import check_admin_role
 router = APIRouter(tags=["Categories"], prefix="/categories")
 
 
-# Get All Categories
+# Get  Categories
 @router.get(
     "/",
     status_code=status.HTTP_200_OK,
@@ -52,7 +52,7 @@ def update_category(category_id: int, updated_category: CategoryUpdate, db: Sess
     return CategoryService.update_category(db, category_id, updated_category)
 
 
-# Delete Category By ID
+# Delete Category .. By ID
 @router.delete(
     "/{category_id}",
     status_code=status.HTTP_200_OK,

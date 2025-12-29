@@ -1,5 +1,5 @@
 from pydantic_settings import BaseSettings
-
+# add jenkins file in that
 
 class Settings(BaseSettings):
     # Database  the Config
@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     db_port: str
     db_name: str
 
-    # JWT the Config
+    # JWT the  Config
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int

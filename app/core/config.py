@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     db_port: str
     db_name: str
 
-    # JWT the  Config
+    # JWT the changes Config
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int
